@@ -1,0 +1,41 @@
+.task-card{
+    border: 2px black solid;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width:600px;
+    padding: 7px;
+    margin: 15px auto;
+   
+
+
+    
+    border:5px solid rgb(225, 227, 253);
+    font-family: cursive;
+    color:rgb(225, 227, 253) ;
+    background-color: rgb(238, 160, 105);
+    border-radius: 20px; 
+    position: relative;
+
+}
+
+
+
+.delete-icon{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+
+.task-category{
+    position: absolute;
+    right: 55px;
+    color:rgb(238, 160, 105) ;
+    background-color:rgb(225, 227, 253) ;
+    padding:7px;
+    border-radius: 10px;
+    width: 90px;
+    text-align: center;
+}

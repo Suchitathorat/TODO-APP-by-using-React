@@ -1,0 +1,70 @@
+.title{
+   text-align: center;
+   font-family:cursive;
+   color:rgb(238, 160, 105);
+   margin-top:50px;
+}
+
+.input-box{
+  padding:20px;
+  width:30%;
+  font-size: 25px;
+  margin:10px;
+  background-color:rgb(225, 227, 253) ;
+  border:2px dotted rgb(238, 160, 105) ;
+  font-family: cursive;
+  
+   
+
+}
+
+.input-container{
+    margin: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+
+
+
+.tasks-bar{
+    display: flex;
+    justify-content: center;
+    border:2px solid rgb(225, 227, 253);
+    margin:15px 31%;
+    padding:10px;
+    font-size: 35px;
+    font-family: cursive;
+    color:rgb(225, 227, 253) ;
+    background-color: rgb(238, 160, 105);
+    border-radius: 20px;
+    
+  
+   
+}
+
+
+.taskbar-container{
+  overflow-y: scroll;
+  height: 450px;
+}
+
+.Add-icon{
+  cursor: pointer;
+}
+
+.category{
+  padding: 5px;
+  border-radius:0px;
+  height: 60px;
+  font-size: 17px;
+
+}
+
+.error-massage{
+  text-align: center;
+  color: red;
+}
